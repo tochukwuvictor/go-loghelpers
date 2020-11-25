@@ -6,6 +6,8 @@ import (
 	log "github.com/hashicorp/go-hclog"
 )
 
+func main() {}
+
 // SetupLogger returns a logger initialized with the log level and program name
 func SetupLogger(logLevel, programName string) (logger log.Logger, err error) {
 	level := log.LevelFromString(logLevel)
