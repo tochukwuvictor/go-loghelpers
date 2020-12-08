@@ -1,4 +1,4 @@
-module github.com/tochukwuvictor/go-logHelpers
+module github.com/tochukwuvictor/go-loghelpers
 
 go 1.14
 
